@@ -18,7 +18,7 @@ export class AppComponent {
   }
   
   creatForm() {
-      this.paymentForm = this.formBuilder.gr
+      this.paymentForm = this.formBuilder.group()
   }
 
   submitForm() {
