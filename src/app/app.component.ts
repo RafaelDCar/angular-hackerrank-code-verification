@@ -47,9 +47,9 @@ export class AppComponent {
       return this.paymentForm.get('cvv');
   }
 
-  submitForm() {;
+  submitForm() {
     /* Change the display message on button click / submit form */
-    console.log(this.paymentForm.valid);
+    console.log(this.paymentForm.);
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful!'
     } else {
