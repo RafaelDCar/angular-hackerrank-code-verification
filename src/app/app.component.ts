@@ -55,8 +55,8 @@ export class AppComponent {
     this.paymentForm.controls['cvv'].setValue("677");
     console.log(this.nameOnCard);
     console.log(this.cardNumber);
-    console.log(this.);
-    console.log(this.cvv);
+    console.log(this.expirationMonth);
+    console.log(this.expirationYear);
     console.log(this.cvv);
     /* Change the display message on button click / submit form */
     if(this.paymentForm.valid === true){
