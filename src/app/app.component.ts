@@ -35,8 +35,8 @@ export class AppComponent {
       return this.paymentForm.get('cardNumber');
   }
   
-  get () {
-      return this.paymentForm.get('cardNumber');
+  get expirationMonth() {
+      return this.paymentForm.get('expirationMonth');
   }
   
   get cardNumber() {
