@@ -43,7 +43,7 @@ export class AppComponent {
       return this.paymentForm.get('expirationYear');
   }
   
-  get cvv() {
+  get cvv(): {
       return this.paymentForm.get('cvv');
   }
 
