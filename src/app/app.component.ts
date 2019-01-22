@@ -16,7 +16,8 @@ export class AppComponent implements OnInit {
     private formBuilder: FormBuilder
 
   }
-
+  
+  ng
   
   creatForm() {
       
