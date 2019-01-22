@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 @NgModule({
   /* set respective calls to components, services, etc here */
-  import
+  imports
   providers: [],
   bootstrap: []
 })
