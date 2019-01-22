@@ -20,7 +20,8 @@ export class AppComponent {
   creatForm() {
       this.paymentForm = this.formBuilder.group({
           name: [],
-          cardNumber: []
+          cardNumber: [],
+          
       })
   }
 
