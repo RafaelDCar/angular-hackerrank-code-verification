@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) {
 
     /* Declare Reactive Form Group here */
-    
+    this.creatForm();
 
   }
   
