@@ -53,7 +53,7 @@ export class AppComponent {
     this.paymentForm.controls['expirationMonth'].setValue("11");
     this.paymentForm.controls['expirationYear'].setValue("2017");
     this.paymentForm.controls['cvv'].setValue("677");
-    console.log(this.nameOnCard.);
+    console.log(this.nameOnCard.valid);
     console.log(this.cardNumber);
     console.log(this.expirationMonth);
     console.log(this.expirationYear);
