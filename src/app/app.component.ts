@@ -6,7 +6,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   templateUrl: './app.component.html'
 })
 
-export class AppComponent implements  {
+export class AppComponent implements O {
   paymentForm: FormGroup;
   displayMessage: string;
 
