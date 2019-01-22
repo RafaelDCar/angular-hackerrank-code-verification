@@ -16,10 +16,7 @@ export class AppComponent implements OnInit {
     this.creatForm();
 
   }
-  
-  ngOnInit() {
-      
-  }
+
   
   creatForm() {
       
