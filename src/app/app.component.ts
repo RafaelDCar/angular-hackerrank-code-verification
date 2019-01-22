@@ -21,7 +21,8 @@ export class AppComponent {
       this.paymentForm = this.formBuilder.group({
           name: [],
           cardNumber: [],
-          expiration: []
+          expiration: [],
+          
       })
   }
 
