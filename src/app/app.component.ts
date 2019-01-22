@@ -49,7 +49,7 @@ export class AppComponent {
 
   submitForm() {
     /* Change the display message on button click / submit form */
-    console.log('Form'this.paymentForm);
+    console.log('Form', this.paymentForm);
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful!'
     } else {
