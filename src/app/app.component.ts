@@ -49,7 +49,7 @@ export class AppComponent {
 
   submitForm() {
       this.paymentForm.controls['nameOnCard'].setValue("Mathew Jerome");
-    .paymentForm.controls['cardNumber'].setValue("3456234567854567");
+    this.paymentForm.controls['cardNumber'].setValue("3456234567854567");
     app.paymentForm.controls['expirationMonth'].setValue("11");
     app.paymentForm.controls['expirationYear'].setValue("2017");
     app.paymentForm.controls['cvv'].setValue("677");
