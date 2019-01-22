@@ -22,7 +22,7 @@ export class AppComponent {
           name: ['', Validators.required],
           cardNumber: ['', [Validators.required, Validators.maxLength(16)]],
           expirationMonth: ['', [Validators.required, Validators.maxLength(2)]],
-          expirationYear: ['', [, Validators.maxLength(4)]],
+          expirationYear: ['', [Validators.minLength(4), Validators.maxLength(4)]],
           cvv: ['', [Validators.minLength(3), Validators.maxLength(3)]]
       })
   }
