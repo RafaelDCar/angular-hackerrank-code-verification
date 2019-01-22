@@ -20,7 +20,7 @@ export class AppComponent {
   creatForm() {
       this.paymentForm = this.formBuilder.group({
           name: ['', Validators.required],
-          cardNumber: ['', Validators.required],
+          cardNumber: ['', ],
           expirationMonth: ['', Validators.required],
           expirationYear: ['', Validators.required],
           cvv: ['', Validators.required]
