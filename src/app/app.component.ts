@@ -49,6 +49,6 @@ export class AppComponent {
 
   submitForm() {
     /* Change the display message on button click / submit form */
-    if(this.paymentForm.)
+    if(this.paymentForm.is)
   }
 }
