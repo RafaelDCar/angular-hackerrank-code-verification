@@ -52,7 +52,7 @@ export class AppComponent {
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful'
     }else {
-        this.displayMessage = 'Payment Successful'
+        this.displayMessage = ''
     }
   }
 }
