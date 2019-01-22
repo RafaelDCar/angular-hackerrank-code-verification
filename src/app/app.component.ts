@@ -48,7 +48,7 @@ export class AppComponent {
   }
 
   submitForm() {
-    this.paymentForm.controls['nameOnCard'].setValue("Mathew Jerome");
+    // this.paymentForm.controls['nameOnCard'].setValue("Mathew Jerome");
     this.paymentForm.controls['cardNumber'].setValue("3456234567854567");
     this.paymentForm.controls['expirationMonth'].setValue("11");
     this.paymentForm.controls['expirationYear'].setValue("2017");
