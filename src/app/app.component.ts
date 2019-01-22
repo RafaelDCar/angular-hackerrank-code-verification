@@ -28,7 +28,7 @@ export class AppComponent {
   }
   
   get name() {
-      return this.pa
+      return this.paymentForm.get
   }
 
   submitForm() {
