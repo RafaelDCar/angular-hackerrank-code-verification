@@ -48,16 +48,7 @@ export class AppComponent {
   }
 
   submitForm() {
-    // this.paymentForm.controls['nameOnCard'].setValue("Mathew Jerome");
-    this.paymentForm.controls['cardNumber'].setValue("3456234567854567");
-    this.paymentForm.controls['expirationMonth'].setValue("11");
-    this.paymentForm.controls['expirationYear'].setValue("2017");
-    this.paymentForm.controls['cvv'].setValue("677");
-    console.log(this.nameOnCard.valid);
-    console.log(this.cardNumber.valid);
-    console.log(this.expirationMonth.valid);
-    console.log(this.expirationYear.valid);
-    console.log(this.cvv.valid);
+
     /* Change the display message on button click / submit form */
     if(this.paymentForm.valid === true){
         this.displayMessage = 'Payment Successful!'
