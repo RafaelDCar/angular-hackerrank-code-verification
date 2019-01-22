@@ -51,7 +51,7 @@ export class AppComponent {
     /* Change the display message on button click / submit form */
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful!'
-    }else {
+    } else {
         this.displayMessage = 'Payment Failed!'
     }
   }
