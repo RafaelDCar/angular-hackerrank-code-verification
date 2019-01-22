@@ -56,8 +56,8 @@ export class AppComponent {
     console.log(this.nameOnCard.valid);
     console.log(this.cardNumber.valid);
     console.log(this.expirationMonth.valid);
-    console.log(this.expirationYear);
-    console.log(this.cvv);
+    console.log(this.expirationYear.valid);
+    console.log(this.cvv.valid);
     /* Change the display message on button click / submit form */
     if(this.paymentForm.valid === true){
         this.displayMessage = 'Payment Successful!'
