@@ -39,7 +39,7 @@ export class AppComponent {
       return this.paymentForm.get('expirationMonth');
   }
   
-  get expirationYear() {
+  get expirationYear(): FormControl {
       return this.paymentForm.get('expirationYear');
   }
   
