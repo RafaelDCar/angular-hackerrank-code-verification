@@ -16,7 +16,9 @@ export class AppComponent {
 
   }
   
-  creatForm() 
+  creatForm() {
+      
+  }
 
   submitForm() {
     /* Change the display message on button click / submit form */
