@@ -54,7 +54,7 @@ export class AppComponent {
     this.paymentForm.controls['expirationYear'].setValue("2017");
     this.paymentForm.controls['cvv'].setValue("677");
     /* Change the display message on button click / submit form */
-    console.log('Erros',this.paymentForm.errors);
+    console.log('Erros',this.paymentForm.);
     console.log('Valid',this.paymentForm.valid);
     this.paymentForm.errors = undefined;
     if(this.paymentForm.valid === true){
