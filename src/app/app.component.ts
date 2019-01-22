@@ -30,6 +30,10 @@ export class AppComponent {
   get name() {
       return this.paymentForm.get('name');
   }
+  
+  get name() {
+      return this.paymentForm.get('name');
+  }
 
   submitForm() {
     /* Change the display message on button click / submit form */
