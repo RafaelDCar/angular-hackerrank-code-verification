@@ -6,7 +6,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   templateUrl: './app.component.html'
 })
 
-export class AppComponent imple {
+export class AppComponent implements  {
   paymentForm: FormGroup;
   displayMessage: string;
 
