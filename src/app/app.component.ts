@@ -43,7 +43,7 @@ export class AppComponent {
       return this.paymentForm.get('expirationYear');
   }
   
-  get cvv(): FormControl {
+  get cvv():  {
       return this.paymentForm.get('cvv');
   }
 
@@ -52,7 +52,7 @@ export class AppComponent {
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful'
     }else {
-        this.displayMessage = ''
+        this.displayMessage = 'Payment Failed!'
     }
   }
 }
