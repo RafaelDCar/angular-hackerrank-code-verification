@@ -22,7 +22,7 @@ export class AppComponent {
           name: [],
           cardNumber: [],
           expiration: [],
-          
+          cvv
       })
   }
 
