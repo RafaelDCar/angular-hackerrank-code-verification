@@ -26,6 +26,8 @@ export class AppComponent {
           cvv: ['', [Validators.required, Validators.maxLength(3)]]
       })
   }
+  
+  get 
 
   submitForm() {
     /* Change the display message on button click / submit form */
