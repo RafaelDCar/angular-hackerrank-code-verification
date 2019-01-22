@@ -28,7 +28,7 @@ export class AppComponent {
   }
   
   get name() {
-      return 
+      return th
   }
 
   submitForm() {
