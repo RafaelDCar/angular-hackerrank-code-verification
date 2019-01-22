@@ -27,7 +27,7 @@ export class AppComponent {
       })
   }
   
-  get name() {
+  get name(): FormControl {
       return this.paymentForm.get('name');
   }
   
