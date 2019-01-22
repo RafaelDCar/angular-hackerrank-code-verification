@@ -28,7 +28,7 @@ export class AppComponent {
   }
   
   get nameOnCard() {
-      return this.paymentForm.get('name');
+      return this.paymentForm.get('nameOnCard');
   }
   
   get cardNumber() {
