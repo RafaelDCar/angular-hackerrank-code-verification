@@ -43,7 +43,7 @@ export class AppComponent {
       return this.paymentForm.get('expirationYear');
   }
   
-  get cardNumber() {
+  get () {
       return this.paymentForm.get('cardNumber');
   }
 
