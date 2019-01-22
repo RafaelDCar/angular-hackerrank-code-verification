@@ -34,6 +34,10 @@ export class AppComponent {
   get cardNumber() {
       return this.paymentForm.get('cardNumber');
   }
+  
+  get cardNumber() {
+      return this.paymentForm.get('cardNumber');
+  }
 
   submitForm() {
     /* Change the display message on button click / submit form */
