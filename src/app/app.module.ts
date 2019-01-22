@@ -7,7 +7,7 @@ import { HttpModule } from '@angular/http';
   /* set respective calls to components, services, etc here */
   imports: [
       ReactiveFormsModule
-]
+    ]
   providers: [],
   bootstrap: []
 })
