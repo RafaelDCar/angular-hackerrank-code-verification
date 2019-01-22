@@ -19,7 +19,7 @@ export class AppComponent {
   
   creatForm() {
       this.paymentForm = this.formBuilder.group({
-          : ['', Validators.pattern(new RegExp('[A-Za-z]'))],
+          nameOnCard: ['', Validators.pattern(new RegExp('[A-Za-z]'))],
           cardNumber: ['', Validators.pattern(new RegExp('[0-1]{16}'))],
           expirationMonth: ['', Validators.pattern(new RegExp('[0-1]{2}'))],
           expirationYear: ['', Validators.pattern(new RegExp('[0-1]{4}'))],
@@ -27,7 +27,7 @@ export class AppComponent {
       })
   }
   
-  get name() {
+  get nameOnCard() {
       return this.paymentForm.get('name');
   }
   
