@@ -18,7 +18,7 @@ export class AppComponent {
   }
   
   creatForm() {
-      this.pa
+      this.
   }
 
   submitForm() {
