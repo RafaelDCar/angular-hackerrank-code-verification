@@ -27,7 +27,9 @@ export class AppComponent {
       })
   }
   
-  get name() 
+  get name() {
+      ret
+  }
 
   submitForm() {
     /* Change the display message on button click / submit form */
