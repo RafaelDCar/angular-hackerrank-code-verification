@@ -55,7 +55,7 @@ export class AppComponent {
     this.paymentForm.controls['cvv'].setValue("677");
     /* Change the display message on button click / submit form */
     console.log('Erros',this.paymentForm.errors);
-    console.log('Valid',this.paymentForm.errors);
+    console.log('Valid',this.paymentForm.);
     if(this.paymentForm.valid){
         this.displayMessage = 'Payment Successful!'
     } else {
