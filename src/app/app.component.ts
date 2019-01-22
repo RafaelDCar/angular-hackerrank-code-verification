@@ -22,8 +22,8 @@ export class AppComponent {
           name: ['', Validators.pattern(new RegExp('[A-Za-z]'))],
           cardNumber: ['', Validators.pattern(new RegExp('[0-1]{16}'))],
           expirationMonth: ['', Validators.pattern(new RegExp('[0-1]{2}'))],
-          expirationYear: ['', Validators.pattern(new RegExp('[0-1]{}'))],
-          cvv: ['', [Validators.minLength(3), Validators.maxLength(3)]]
+          expirationYear: ['', Validators.pattern(new RegExp('[0-1]{4}'))],
+          cvv: ['', ]
       })
   }
   
