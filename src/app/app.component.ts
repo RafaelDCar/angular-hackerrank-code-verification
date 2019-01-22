@@ -31,8 +31,8 @@ export class AppComponent {
       return this.paymentForm.get('name');
   }
   
-  get () {
-      return this.paymentForm.get('name');
+  get cardNumber() {
+      return this.paymentForm.get('cardNumber');
   }
 
   submitForm() {
