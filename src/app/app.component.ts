@@ -13,7 +13,7 @@ export class AppComponent {
   constructor() {
 
     /* Declare Reactive Form Group here */
-    private formGroup: Fo
+    private formGroup: Form
 
   }
   
