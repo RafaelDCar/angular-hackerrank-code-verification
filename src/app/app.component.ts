@@ -56,7 +56,7 @@ export class AppComponent {
     /* Change the display message on button click / submit form */
     console.log('Erros',this.paymentForm.errors);
     console.log('Valid',this.paymentForm.valid);
-    if(this.paymentForm.valid == true){
+    if(this.paymentForm.valid === true){
         this.displayMessage = 'Payment Successful!'
     } else {
         this.displayMessage = 'Payment Failed!'
