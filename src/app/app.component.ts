@@ -18,7 +18,7 @@ export class AppComponent {
   }
   
   creatForm() {
-      t
+      this.form
   }
 
   submitForm() {
