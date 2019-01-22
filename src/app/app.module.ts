@@ -13,7 +13,7 @@ import { HttpModule } from '@angular/http';
       ReactiveFormsModule
     ],
   providers: [],
-  bootstrap: []
+  bootstrap: [AppComponent]
 })
 
 export class AppModule { }
