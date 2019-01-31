@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
 
 @NgModule({
   /* set respective calls to components, services, etc here */
@@ -9,7 +9,7 @@ import { HttpModule } from '@angular/http';
     AppComponent
   ],
   imports: [
-      BrowserModule
+      BrowserModule,
       ReactiveFormsModule
     ],
   providers: [],
